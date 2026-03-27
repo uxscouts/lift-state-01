@@ -39,10 +39,10 @@ function TimeDropDown(){
 
     return(
         <div>
-            <p>TimeDropDown</p>
+            <p>TimeDropDown.JSX</p>
             <form onSubmit={handleSubmit}>
             <label>
-                Pick your favorite flavor:
+                Pick Booking Time:<br/>
                 <select value={selectedValue} onChange={handleChange}>
                 {options.map((option) => (
                     <option
@@ -55,6 +55,7 @@ function TimeDropDown(){
                 ))}
                 </select>
             </label>
+            <br/>
             <button type="submit">Submit</button>
         </form>
         </div>

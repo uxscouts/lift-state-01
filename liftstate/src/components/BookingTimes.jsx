@@ -16,6 +16,7 @@ function BookingTimes({ onTimeChange }){
    return (
     <div>
       <p><i>[Child Component]</i></p>
+      <p>BookingTimes.jsx</p>
       <input
         type="text"
         value={childInput2}
