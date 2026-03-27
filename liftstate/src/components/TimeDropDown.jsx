@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-//import { Form, FormGroup, Label, Input, FormText, Button } from 'reactstrap';
-import { FormGroup, Label, Input } from 'reactstrap';
+import { Form, FormGroup, Label, Input, FormText, Button } from 'reactstrap';
+// import { FormGroup, Label, Input } from 'reactstrap';
+
 
 function TimeDropDown(){
     // the "state" to store selected value
@@ -36,21 +37,6 @@ function TimeDropDown(){
     elements in the component's JSX. Use the map() 
     method to generate the options from your array. */}
 
-{/**
-    
-            {options.map((option) => (
-            <option
-              key={option.value || 'default'} // Use a unique key
-              value={option.value}
-              disabled={option.value === ''} // Disable the "Select..." option
-            >
-              {option.label}
-            </option>
-          ))}  
-    */}
-
-
-
     return(
         <div>
             <p>TimeDropDown</p>
@@ -70,7 +56,7 @@ function TimeDropDown(){
                 </select>
             </label>
             <button type="submit">Submit</button>
-                </form>
+        </form>
         </div>
     )
 }
